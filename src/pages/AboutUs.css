@@ -1,0 +1,51 @@
+/* AboutUs.css */
+
+/* Main container styles */
+
+  /* Section title styles */
+ 
+  
+  /* Paper (content) styles */
+
+  .Paper {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    background-image: url("https://images.pexels.com/photos/593172/pexels-photo-593172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  }
+  
+  .Paper:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Mission and Values styles */
+  .MissionValues {
+    padding: 20px;
+  }
+  
+  /* Value list styles */
+  .ValueList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ValueList li {
+    margin-bottom: 10px;
+  }
+  
+  /* Animation for the main title */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .FadeInTitle {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
